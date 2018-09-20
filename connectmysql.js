@@ -1,4 +1,4 @@
-var mysql      = require('./node_modules/mysql');
+var mysql      = require('mysql');
 var connection = mysql.createConnection({
   host     : 'mysql-pr-dbha.apps.osp.loblaw.ca',
   user     : 'admin',
